@@ -1,4 +1,4 @@
-package net.javaguides.springboot;
+package net.javaguides.springboot.springboot;
 
 
 import org.apache.kafka.clients.admin.NewTopic;
