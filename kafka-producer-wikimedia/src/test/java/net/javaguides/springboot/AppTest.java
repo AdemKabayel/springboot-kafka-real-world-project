@@ -1,4 +1,4 @@
-package net.javaguides;
+package net.javaguides.springboot;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
