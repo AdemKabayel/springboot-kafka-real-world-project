@@ -24,7 +24,7 @@ public class WikimediaChangesHandler implements EventHandler {
 
     @Override
     public void onClosed() throws Exception {
-
+        LOGGER.info("onClosed");
     }
 
     /* whenever there is a new event/ event changes handler above will get triggered and then this onMessage method
