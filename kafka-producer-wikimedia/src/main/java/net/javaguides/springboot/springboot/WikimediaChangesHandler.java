@@ -19,7 +19,7 @@ public class WikimediaChangesHandler implements EventHandler {
 
     @Override
     public void onOpen() throws Exception {
-
+        LOGGER.info("onOpen");
     }
 
     @Override
