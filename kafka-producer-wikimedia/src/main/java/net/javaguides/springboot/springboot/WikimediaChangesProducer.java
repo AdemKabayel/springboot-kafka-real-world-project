@@ -16,7 +16,7 @@ public class WikimediaChangesProducer {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(WikimediaChangesProducer.class);
 
-    private KafkaTemplate<String, String> kafkaTemplate;
+    private final KafkaTemplate<String, String> kafkaTemplate;
 
     // producer constructor
     public WikimediaChangesProducer(KafkaTemplate<String, String> kafkaTemplate) {
