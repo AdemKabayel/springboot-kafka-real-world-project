@@ -27,7 +27,7 @@ public class WikimediaChangesProducer {
 
         String topic = "wikimedia_recentchanges";
         String nad = "bin/kafka-console-consumer.sh --topic wikimedia_recentchanges -- from-beginning --bootstrap-server localhost:9092";
-
+        //String test = "test";
         // to read real time string data from wikimedia, we use event source
 
         EventHandler eventHandler = new WikimediaChangesHandler(kafkaTemplate, topic);
