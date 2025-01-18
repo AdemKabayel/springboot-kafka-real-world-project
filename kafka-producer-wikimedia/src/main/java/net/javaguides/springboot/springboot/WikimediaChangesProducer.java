@@ -36,6 +36,8 @@ public class WikimediaChangesProducer {
         EventSource eventSource = builder.build();
         eventSource.start();
         TimeUnit.MINUTES.sleep(10);
+
+        //eventSource.toString();
     }
 }
 
